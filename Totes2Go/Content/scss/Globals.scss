@@ -1,0 +1,38 @@
+﻿.img {
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .hide-for-small {
+        display: none;
+    }
+}
+
+@media (min-width: 767px) {
+    .hide-for-large {
+        display: none !important;
+    }
+}
+
+.no-margin-for-small {
+
+    @media (max-width: 767px) {
+        margin: 0 !important;
+    }
+}

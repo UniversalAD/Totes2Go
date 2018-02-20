@@ -1,0 +1,121 @@
+﻿.navbar-inverse {
+    background-color: #ecead3;
+    border-color: #6dbd45;
+
+    .navbar-nav {
+
+        li {
+            a {
+                color: #000;
+
+                &:hover {
+                   color: #000;
+                   opacity: .5;
+                }
+
+                @media (max-width: 1024px) {
+                    padding: 10px;
+                }
+
+                @media (max-width: 900px) {
+                    padding: 10px 8px;
+                }
+
+                @media (max-width: 767px) {
+                    padding: 8px 8px;
+                }
+            }
+        }
+    }
+
+    .navbar-left {
+
+        @media (max-width: 1150px) {
+            margin-left: -35px !important;
+        }
+
+        @media (max-width: 1000px) {
+            margin-left: -135px !important;
+        }
+
+        @media (max-width: 900px) {
+            margin-left: -88px;
+        }
+
+        @media (max-width: 767px) {
+            margin-left: auto !important;
+        }
+    }
+}
+
+.search-nav {
+
+    .nav {
+        float: right;
+        margin-right: 17px;
+
+        @media (max-width: 1024px) {
+            margin-right: 40px;
+        }
+
+        li {
+            span {
+                padding-left: 5px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    .col-xs-12 {
+        a {
+            img {
+                max-width: 200px;
+                margin-left: 50px;
+            }
+        }
+    }
+
+    .login-nav {
+        margin: -2.5px 0 !important;
+    }
+}
+
+
+.navbar-inverse {
+
+    .navbar-toggle {
+        z-index: 5;
+
+        &:hover {
+            background-color: #fff;
+        }
+
+        &:focus {
+            background-color: #fff;
+        }
+
+        .icon-bar {
+            background-color: #000;
+        }
+    }
+}
+
+.nav {
+    @media (max-width: 767px) {
+        padding: 7.5px 0;
+    }
+
+    .navbar-nav {
+        @media (max-width: 767px) {
+            margin: 7.5px 0;
+        }
+    }
+}
+
+.glyphicon-search {
+    @media (max-width: 767px) {
+        margin-left: 5px;
+    }
+}

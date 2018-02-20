@@ -1,24 +1,117 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
+﻿.img {
+  width: 100%; }
+
+::-webkit-input-placeholder {
+  text-align: center; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center; }
+
+:-ms-input-placeholder {
+  text-align: center; }
+
+@media (max-width: 767px) {
+  .hide-for-small {
+    display: none; } }
+
+@media (min-width: 767px) {
+  .hide-for-large {
+    display: none !important; } }
+
+@media (max-width: 767px) {
+  .no-margin-for-small {
+    margin: 0 !important; } }
+
+.navbar-inverse {
+  background-color: #ecead3;
+  border-color: #6dbd45; }
+  .navbar-inverse .navbar-nav li a {
+    color: #000; }
+    .navbar-inverse .navbar-nav li a:hover {
+      color: #000;
+      opacity: .5; }
+    @media (max-width: 1024px) {
+      .navbar-inverse .navbar-nav li a {
+        padding: 10px; } }
+    @media (max-width: 900px) {
+      .navbar-inverse .navbar-nav li a {
+        padding: 10px 8px; } }
+    @media (max-width: 767px) {
+      .navbar-inverse .navbar-nav li a {
+        padding: 8px 8px; } }
+  @media (max-width: 1150px) {
+    .navbar-inverse .navbar-left {
+      margin-left: -35px !important; } }
+  @media (max-width: 1000px) {
+    .navbar-inverse .navbar-left {
+      margin-left: -135px !important; } }
+  @media (max-width: 900px) {
+    .navbar-inverse .navbar-left {
+      margin-left: -88px; } }
+  @media (max-width: 767px) {
+    .navbar-inverse .navbar-left {
+      margin-left: auto !important; } }
+
+.search-nav .nav {
+  float: right;
+  margin-right: 17px; }
+  @media (max-width: 1024px) {
+    .search-nav .nav {
+      margin-right: 40px; } }
+  .search-nav .nav li span {
+    padding-left: 5px; }
+
+@media (max-width: 767px) {
+  .col-xs-12 a img {
+    max-width: 200px;
+    margin-left: 50px; }
+  .login-nav {
+    margin: -2.5px 0 !important; } }
+
+.navbar-inverse .navbar-toggle {
+  z-index: 5; }
+  .navbar-inverse .navbar-toggle:hover {
+    background-color: #fff; }
+  .navbar-inverse .navbar-toggle:focus {
+    background-color: #fff; }
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #000; }
+
+@media (max-width: 767px) {
+  .nav {
+    padding: 7.5px 0; } }
+
+@media (max-width: 767px) {
+  .nav .navbar-nav {
+    margin: 7.5px 0; } }
+
+@media (max-width: 767px) {
+  .glyphicon-search {
+    margin-left: 5px; } }
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px; }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
+  padding-left: 15px;
+  padding-right: 15px; }
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
 .dl-horizontal dt {
-    white-space: normal;
-}
+  white-space: normal; }
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
 textarea {
-    max-width: 280px;
-}
+  max-width: 280px; }
+

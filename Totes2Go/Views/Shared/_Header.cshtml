@@ -1,0 +1,37 @@
+﻿
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <a href="@Url.Action("Index", "Home")">
+                        <img alt="Totes 2 Go" class="img" src="~/Content/Images/Logo_03.png">
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-sm-push-1 col-md-9 col-lg-8 col-lg-push-2">
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li>@Html.ActionLink("Our Totes", "OurTotes", "Home")</li>
+                            <li>@Html.ActionLink("Pricing", "Pricing", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("Payments", "Payments", "Home")</li>
+                            <li>@Html.ActionLink("Employment", "Employment", "Home")</li>
+                            @Html.Partial("_LoginPartial")
+                            <li class="hide-for-large">@Html.TextBox("id", ViewBag.CurrentFilter as string, new { placeholder = "Search" })<span class="glyphicon glyphicon-search"></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-push-4 col-md-push-5 col-lg-3 col-lg-push-4 search-nav hide-for-small">
+                    <ul class="nav">
+                        <li>@Html.TextBox("id", ViewBag.CurrentFilter as string, new { placeholder = "Search" })<span class="glyphicon glyphicon-search"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
