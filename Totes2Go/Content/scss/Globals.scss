@@ -1,4 +1,8 @@
-﻿.img {
+﻿body {
+    background-color: #203644;
+}
+
+.img {
     width: 100%;
 }
 
@@ -35,4 +39,22 @@
     @media (max-width: 767px) {
         margin: 0 !important;
     }
+}
+
+.col-centered {
+    margin: 0 auto;
+    display: block;
+    float: none;
+}
+
+.m-top-100 {
+    margin-top: 100px;
+}
+
+.relative {
+    position: relative;
+}
+
+.font-white {
+    color: #fff;
 }
