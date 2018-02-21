@@ -128,27 +128,6 @@
   .glyphicon-search {
     margin-left: 5px; } }
 
-.video-section {
-  margin-top: 130px; }
-  .video-section .blue-fade {
-    background-image: url("Images/backgrounds/blue_bg_03.png");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding: 50px 0 20px 0; }
-    @media (max-width: 480px) {
-      .video-section .blue-fade {
-        padding: 50px 0 50px 0; } }
-    .video-section .blue-fade video {
-      margin: 0 auto;
-      display: block; }
-
-.striped {
-  background-image: url("Images/backgrounds/striped_bg_04.png");
-  background-size: cover;
-  height: 100px;
-  width: 100%; }
-
 .grocery-corner {
   background-image: url("Images/backgrounds/grocery_corner_06_06.png");
   background-size: cover;
@@ -287,9 +266,41 @@
     transform: translate(-50%, 775%);
     width: 370px;
     height: 15px; }
+    @media (max-width: 480px) {
+      .text-vid-sec .bottom-blur {
+        transform: translate(-50%, 108%); } }
 
 footer {
   height: 100px; }
+
+.video-section {
+  margin-top: 130px; }
+  .video-section .blue-fade {
+    background-image: url("Images/backgrounds/blue_bg_03.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0 20px 0; }
+    @media (max-width: 480px) {
+      .video-section .blue-fade {
+        padding: 50px 0 50px 0; } }
+    .video-section .blue-fade video {
+      margin: 0 auto;
+      display: block; }
+
+.striped {
+  background-image: url("Images/backgrounds/striped_bg_04.png");
+  background-size: cover;
+  height: 100px;
+  width: 100%; }
+
+.pricing-section .brown {
+  background-color: #542d02;
+  height: 50px; }
+
+.pricing-section .green {
+  background-color: #0c5601;
+  height: 50px; }
 
 body {
   padding-top: 50px;

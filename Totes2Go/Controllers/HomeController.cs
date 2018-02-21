@@ -13,10 +13,8 @@ namespace Totes2Go.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Pricing()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
