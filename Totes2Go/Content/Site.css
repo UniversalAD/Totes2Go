@@ -201,7 +201,7 @@
       .totes .totes-p-sec {
         margin: auto; } }
     .totes .totes-p-sec div {
-      transform: translate(0, -50%);
+      transform: translate(0, -70%);
       top: 50%;
       position: relative;
       margin: auto; }
@@ -269,9 +269,10 @@
         font-size: 22px;
         font-style: italic; }
     .text-vid-sec .totes-p-sec p {
-      text-align: center; }
+      text-align: center;
+      font-size: 16px; }
     .text-vid-sec .totes-p-sec div {
-      transform: translate(0, -60%);
+      transform: translate(0, -70%);
       top: 50%;
       position: relative; }
   .text-vid-sec .totes-video-sec {
