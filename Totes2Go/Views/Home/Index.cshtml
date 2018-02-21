@@ -2,19 +2,7 @@
     ViewBag.Title = "Home Page";
 }
 
-<section class="container video-section">
-    <div class="row">
-        <div class="col-lg-10 col-centered blue-fade">
-            <div class="col-lg-9 col-centered">
-                <video width="100%" poster="http://via.placeholder.com/350x150" controls>
-                    <source src="" type="video/mp4">
-                    <source src="" type="video/ogg">
-                    Your browser does not support HTML5 video.
-                </video>
-            </div>
-        </div>
-    </div>
-</section>
+@Html.Partial("_TopVideoSection")
 
 <section class="container-fluid striped m-top-100"></section>
 

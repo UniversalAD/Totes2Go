@@ -209,6 +209,12 @@
     <Content Include="Content\Images\backgrounds\striped_bg_04.png" />
     <Content Include="Content\Images\backgrounds\striped_bg_07.png" />
     <Content Include="Content\Images\blur_03.png" />
+    <Content Include="Content\Images\brown-bag-01_03.png" />
+    <Content Include="Content\Images\brown-bag-02_05.png" />
+    <Content Include="Content\Images\brown-bag-03_05.png" />
+    <Content Include="Content\Images\brown-bag-04_07.png" />
+    <Content Include="Content\Images\brown-bag-05_07.png" />
+    <Content Include="Content\Images\faded_logo_07.png" />
     <Content Include="Content\Images\Logo_03.png" />
     <Content Include="Content\Site.css">
       <DependentUpon>Site.scss</DependentUpon>
@@ -228,6 +234,9 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <Content Include="Content\scss\Home.scss" />
+    <Content Include="Content\scss\TopVideoSection.scss" />
+    <Content Include="Content\scss\Layout.scss" />
+    <Content Include="Content\scss\Pricing.scss" />
     <None Include="Content\Site.scss" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -256,7 +265,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Pricing.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
@@ -280,6 +289,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Header.cshtml" />
+    <Content Include="Views\Shared\_TopVideoSection.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
