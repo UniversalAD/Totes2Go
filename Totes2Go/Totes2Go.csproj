@@ -207,6 +207,8 @@
     <Content Include="Content\Images\backgrounds\blue_bg_03.png" />
     <Content Include="Content\Images\backgrounds\grocery_corner_06_06.png" />
     <Content Include="Content\Images\backgrounds\striped_bg_04.png" />
+    <Content Include="Content\Images\backgrounds\striped_bg_07.png" />
+    <Content Include="Content\Images\blur_03.png" />
     <Content Include="Content\Images\Logo_03.png" />
     <Content Include="Content\Site.css">
       <DependentUpon>Site.scss</DependentUpon>
