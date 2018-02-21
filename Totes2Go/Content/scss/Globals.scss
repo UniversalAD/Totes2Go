@@ -49,6 +49,18 @@
 
 .m-top-100 {
     margin-top: 100px;
+
+    @media (max-width: 480px) {
+        margin-top: 50px;
+    }
+}
+
+.m-bottom-100 {
+    margin-bottom: 100px;
+
+    @media (max-width: 480px) {
+        margin-bottom: 50px;
+    }
 }
 
 .relative {
@@ -57,4 +69,15 @@
 
 .font-white {
     color: #fff;
+}
+
+.no-gutters {
+    padding: 0;
+}
+
+.row {
+    @media (max-width: 767px) {
+        margin-right: auto;
+        margin-left: auto;
+    }
 }

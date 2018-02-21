@@ -1,5 +1,4 @@
-﻿.video-section
-{
+﻿.video-section {
     margin-top: 130px;
 
     .blue-fade {
@@ -8,6 +7,10 @@
         width: 100%;
         height: 100%;
         padding: 50px 0 20px 0;
+
+        @media (max-width: 480px) {
+            padding: 50px 0 50px 0;
+        }
 
         video {
             margin: 0 auto;
@@ -32,28 +35,187 @@
     .lady-img {
         position: absolute;
         top: -210px;
-        right: 0;
         width: 386px;
         right: 205px;
+
+        @media (max-width: 767px) {
+            right: 35px;
+        }
+
+        @media (max-width: 480px) {
+            position: relative;
+            right: 50%;
+            bottom: -50%;
+            transform: translate(50%, 40.5%);
+            width: 100%;
+        }
+
+        img {
+            @media (max-width: 480px) {
+                width: 65%;
+                left: -50%;
+                bottom: -50%;
+                transform: translate(50%, 7%);
+            }
+        }
     }
 
     .on-the-go-img {
         position: absolute;
-        top: 110px;        
+        top: 110px;
         width: 64%;
         left: -121px;
         z-index: 5;
+
+        @media (max-width: 900px) {
+            left: -83px;
+        }
+
+        @media (max-width: 480px) {
+            top: 280px;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-87%, 50%);
+        }
     }
 }
 
 .totes {
+    position: relative;
+
     .totes-p-sec {
-        padding: 122px;
         background-color: #2b495b;
+        margin-left: 10px;
+        height: 350px;
+
+        @media (max-width: 767px) {
+            margin: auto;
+        }
+
+        div {
+            transform: translate(0, -50%);
+            top: 50%;
+            position: relative;
+            margin: auto;
+        }
     }
 
     .totes-img-sec {
-        padding: 50px;
         background-color: #2b495b;
+        margin-right: 10px;
+        height: 350px;
+
+        @media (max-width: 767px) {
+            height: auto;
+            margin: auto;
+            padding: 15px;
+        }
+
+        img {
+            transform: translate(0, -50%);
+            top: 50%;
+            position: relative;
+
+            @media (max-width: 767px) {
+                transform: translate(0,0);
+                top: auto;
+            }
+        }
     }
+
+    p {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-weight: 900;
+        font-size: 28px;
+    }
+
+    .top-blur {
+        position: relative;
+        width: 370px;
+        height: 15px;
+        top: -50%;
+        transform: translate(-50%, -690%);
+        right: -50%;
+
+        @media (max-width: 480px) {
+            transform: translate(-50%, -360%);
+        }
+    }
+
+    .bottom-blur {
+        position: relative;
+        right: -50%;
+        transform: translate(-50%, 670%);
+        width: 370px;
+        height: 15px;
+
+        @media (max-width: 480px) {
+            transform: translate(-50%, 335%);
+        }
+    }
+}
+
+.text-vid-sec {
+    background-image: url('Images/backgrounds/striped_bg_07.png');
+    padding: 100px 0;
+
+    @media (max-width: 480px) {
+        padding: 0;
+    }
+
+    .totes-p-sec {
+        height: 350px;
+        background-color: #fff;
+        margin-right: 10px;
+
+        @media (max-width: 767px) {
+            margin: auto;
+        }
+
+        h3 {
+            font-size: 28px;
+            color: #203644;
+            font-weight: 900;
+
+            span {
+                font-weight: 100;
+                font-size: 22px;
+                font-style: italic;
+            }
+        }
+
+        p {
+            text-align: center;
+        }
+
+        div {
+            transform: translate(0, -60%);
+            top: 50%;
+            position: relative;
+        }
+    }
+
+    .totes-video-sec {
+        height: 350px;
+        margin-left: 10px;
+
+        @media (max-width: 767px) {
+            height: auto;
+        }
+    }
+
+    .bottom-blur {
+        position: relative;
+        right: -50%;
+        transform: translate(-50%, 775%);
+        width: 370px;
+        height: 15px;       
+    }
+}
+
+footer {
+    height: 100px;
 }
