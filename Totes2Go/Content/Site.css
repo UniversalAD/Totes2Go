@@ -296,11 +296,152 @@ footer {
 
 .pricing-section .brown {
   background-color: #542d02;
-  height: 50px; }
+  height: 70px; }
+  @media (max-width: 767px) {
+    .pricing-section .brown {
+      margin-top: 70px; } }
 
 .pricing-section .green {
   background-color: #0c5601;
-  height: 50px; }
+  height: 70px; }
+  @media (max-width: 767px) {
+    .pricing-section .green {
+      margin-top: 70px; } }
+
+.pricing-section .maroon {
+  background-color: #600404;
+  height: 70px; }
+  @media (max-width: 767px) {
+    .pricing-section .maroon {
+      margin-top: 70px; } }
+
+.pricing-section .light-blue {
+  background-color: #4a7d99;
+  height: 70px;
+  margin-top: 50px; }
+  @media (max-width: 767px) {
+    .pricing-section .light-blue {
+      margin-top: 70px; } }
+
+.pricing-section .orange {
+  background-color: #ef7700;
+  height: 70px;
+  margin-top: 50px; }
+  @media (max-width: 767px) {
+    .pricing-section .orange {
+      margin-top: 70px; } }
+
+.pricing-section h3 {
+  font-size: 40px;
+  color: #fff;
+  line-height: 0.6;
+  padding-top: 10px; }
+  @media (max-width: 768px) {
+    .pricing-section h3 {
+      font-size: 4vw; } }
+  @media (max-width: 480px) {
+    .pricing-section h3 {
+      font-size: 35px; } }
+  .pricing-section h3 span {
+    font-size: 14px;
+    font-weight: 100; }
+    .pricing-section h3 span small {
+      color: #fff; }
+
+.pricing-section .logo-img {
+  transform: translate(0, 40%); }
+  @media (max-width: 480px) {
+    .pricing-section .logo-img {
+      transform: translate(0, 10%);
+      margin-top: 35px; } }
+
+.pricing-section .white-bg {
+  background-color: #fff; }
+  @media (max-width: 1024px) {
+    .pricing-section .white-bg {
+      height: 234px; } }
+  @media (max-width: 900px) {
+    .pricing-section .white-bg {
+      height: 189px; } }
+  @media (max-width: 768px) {
+    .pricing-section .white-bg {
+      height: 138px; } }
+  @media (max-width: 767px) {
+    .pricing-section .white-bg {
+      height: 267px; } }
+  @media (max-width: 480px) {
+    .pricing-section .white-bg {
+      height: 100%; } }
+  .pricing-section .white-bg img {
+    padding: 0px 60px 0 60px;
+    margin-top: -35px;
+    transform: translate(0, 11%); }
+    @media (max-width: 1024px) {
+      .pricing-section .white-bg img {
+        transform: translate(0, 16%);
+        padding: 15px 60px 0 60px; } }
+    @media (max-width: 480px) {
+      .pricing-section .white-bg img {
+        transform: translate(0, 14%); } }
+    .pricing-section .white-bg img.green-img {
+      transform: translate(0, 14%); }
+      @media (max-width: 1024px) {
+        .pricing-section .white-bg img.green-img {
+          transform: translate(0, 17%); } }
+    .pricing-section .white-bg img.orange-img {
+      transform: translate(0, 14%); }
+      @media (max-width: 1024px) {
+        .pricing-section .white-bg img.orange-img {
+          transform: translate(0, 17%); } }
+    .pricing-section .white-bg img.maroon-img {
+      transform: translate(0, 14%); }
+      @media (max-width: 1024px) {
+        .pricing-section .white-bg img.maroon-img {
+          transform: translate(0, 17%); } }
+    .pricing-section .white-bg img.light-blue-img {
+      transform: translate(0, 14%); }
+      @media (max-width: 1024px) {
+        .pricing-section .white-bg img.light-blue-img {
+          transform: translate(0, 17%); } }
+  .pricing-section .white-bg .bottom-fade {
+    background-image: url("Images/backgrounds/bottom-shadow_03.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%; }
+    @media (max-width: 1024px) {
+      .pricing-section .white-bg .bottom-fade {
+        margin-left: -2px;
+        width: 102%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat; } }
+    @media (max-width: 767px) {
+      .pricing-section .white-bg .bottom-fade {
+        transform: translate(0, 13%); } }
+    @media (max-width: 480px) {
+      .pricing-section .white-bg .bottom-fade {
+        height: 45px;
+        transform: translate(0, 22%);
+        background-size: cover; } }
+    .pricing-section .white-bg .bottom-fade h4 {
+      font-size: 40px;
+      color: #fff;
+      letter-spacing: 2px;
+      transform: translate(0, 38%); }
+
+@media (max-width: 480px) {
+  .pricing-section .col-xs-6 {
+    width: 100%; } }
+
+.striped .bottom-blur {
+  position: relative;
+  right: -50%;
+  transform: translate(-50%, 640%);
+  width: 370px;
+  height: 15px; }
+  @media (max-width: 480px) {
+    .striped .bottom-blur {
+      transform: translate(-50%, 645%); } }
 
 body {
   padding-top: 50px;
