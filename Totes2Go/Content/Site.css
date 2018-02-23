@@ -444,14 +444,107 @@ footer {
       transform: translate(-50%, 645%); } }
 
 .contact h2 {
-  color: #fff; }
+  color: #fff;
+  font-weight: 900; }
 
 .contact .contact-form {
   margin-top: 100px; }
   .contact .contact-form .form-horizontal {
     color: #fff; }
+    .contact .contact-form .form-horizontal label {
+      padding-top: 0; }
     .contact .contact-form .form-horizontal input {
       width: 100%; }
+    .contact .contact-form .form-horizontal textarea.form-control {
+      height: 130px; }
+  .contact .contact-form .field-validation-error,
+  .contact .contact-form #error-message {
+    color: #f00;
+    font-style: italic; }
+
+.contact .bottom-blur {
+  position: relative;
+  right: -50%;
+  transform: translate(-50%, 425%);
+  width: 370px;
+  height: 15px; }
+  @media (max-width: 480px) {
+    .contact .bottom-blur {
+      transform: translate(-50%, 278%); } }
+
+.modal-content {
+  padding: 15px;
+  z-index: -1; }
+  .modal-content .button.close {
+    z-index: 5; }
+  .modal-content .modal-body {
+    z-index: -5; }
+
+.payment {
+  color: #fff; }
+  @media (max-width: 480px) {
+    .payment {
+      margin-top: 80px; } }
+  .payment h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: bold; }
+    .payment h2.main-header {
+      margin-bottom: 25px; }
+  .payment .number {
+    background-color: #fff;
+    color: #000;
+    margin: 15px 0 0 0;
+    padding: 0 5px;
+    width: 80%; }
+    @media (max-width: 768px) {
+      .payment .number {
+        width: 75%; } }
+    @media (max-width: 480px) {
+      .payment .number {
+        width: 73%; } }
+    .payment .number.second {
+      margin-left: -25px; }
+      .payment .number.second:before {
+        transform: translate(-270%, -125%); }
+    .payment .number:before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translate(-120%, -125%);
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #fff; }
+  .payment .account-desc {
+    font-size: 14px; }
+    @media (max-width: 1024px) {
+      .payment .account-desc {
+        font-size: 2vw; } }
+    .payment .account-desc.p-left {
+      margin-left: -25px; }
+  @media (max-width: 480px) {
+    .payment .col-xs-6 {
+      width: 100%; } }
+
+.card-info {
+  margin-top: 25px;
+  color: #fff; }
+  .card-info ul {
+    margin: 0;
+    padding: 0; }
+    .card-info ul li {
+      display: inline-block;
+      padding-right: 4px; }
+      .card-info ul li img {
+        width: 100%;
+        max-width: 125px; }
+  .card-info h2 {
+    margin-top: 0;
+    font-weight: bold; }
+  .card-info .card-sec {
+    margin-top: 25px; }
 
 body {
   padding-top: 50px;

@@ -22,14 +22,26 @@ namespace Totes2Go.Controllers
             return View();
         }
 
+        public ActionResult Payments()
+        {
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Contact(EmailContact model)
         {
             if (ModelState.IsValid)
             {
                 var body = "Name: {0} <br />  Email: {1} <br /> Phone: {2} <br />  Message: {3} <br /> Contact Type Phone: {4} <br /> Contact Type Email: {5}";
                 var message = new SendGridMessage();
-                message.AddTo("chrisg.universalad@gmail.com");  // replace with valid value 
-                message.From = new MailAddress("chrisg.universalad@gmail.com");  // replace with valid value
+                message.AddTo("chrisg@universalad.com");  // replace with valid value 
+                message.From = new MailAddress("chrisg@universalad.com");  // replace with valid value
                 message.Subject = "Totes 2 Go Contact";
                 message.Html = string.Format(body, model.Name, model.Email, model.Phone, model.Message, model.PhoneCheck, model.EmailCheck);
                 //Azure credentials
@@ -46,7 +58,8 @@ namespace Totes2Go.Controllers
 
                 ViewBag.Message = "Message Sent";
                 ModelState.Clear(); //clears form when page reload
-                return View("Index");
+                //Response.Redirect(Request.Url.AbsolutePath); //redirects page to index page, prevents double 
+                return View();
 
             }
             return View(model);

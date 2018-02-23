@@ -222,8 +222,12 @@
     <Content Include="Content\Images\brown-bag-03_05.png" />
     <Content Include="Content\Images\brown-bag-04_07.png" />
     <Content Include="Content\Images\brown-bag-05_07.png" />
+    <Content Include="Content\Images\Check_03.png" />
     <Content Include="Content\Images\faded_logo_07.png" />
+    <Content Include="Content\Images\lady_05.png" />
     <Content Include="Content\Images\Logo_03.png" />
+    <Content Include="Content\Images\on-the-go-arrow.png" />
+    <Content Include="Content\Images\Tote-Mini.png" />
     <Content Include="Content\Site.css">
       <DependentUpon>Site.scss</DependentUpon>
     </Content>
@@ -245,6 +249,7 @@
     <Content Include="Content\scss\TopVideoSection.scss" />
     <Content Include="Content\scss\Layout.scss" />
     <Content Include="Content\scss\Pricing.scss" />
+    <Content Include="Content\scss\Contact.scss" />
     <None Include="Content\Site.scss" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -262,6 +267,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\ValidateCheckbox.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -298,6 +304,8 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Shared\_TopVideoSection.cshtml" />
+    <Content Include="Views\Shared\_MessageSuccessModal.cshtml" />
+    <Content Include="Views\Home\Payments.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
