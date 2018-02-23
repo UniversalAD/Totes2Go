@@ -12,14 +12,14 @@
             @Html.AntiForgeryToken()
             <div class="form-horizontal">
                 <div class="form-group">
-                    
+
                     <div class="col-md-10 col-centered">
                         @Html.LabelFor(m => m.Name, new { @class = "control-label" })
                         @Html.TextBoxFor(m => m.Name, new { @class = "form-control", required = "required" })
                         @Html.ValidationMessageFor(m => m.Name)
                     </div>
                 </div>
-                <div class="form-group">                  
+                <div class="form-group">
                     <div class="col-md-10 col-centered">
                         @Html.LabelFor(m => m.Email, new { @class = "control-label" })
                         @Html.TextBoxFor(m => m.Email, new { @class = "form-control", required = "required" })
@@ -29,7 +29,7 @@
                 <div class="form-group">
                     <div class="col-md-10 col-centered">
                         @Html.LabelFor(m => m.Phone, new { @class = "control-label" })
-                        @Html.EditorFor(m => m.Phone, new { @class = "form-control", required = "required", placeholder = "xxx-xxx-xxxx" })<br />
+                        @Html.TextBoxFor(m => m.Phone, new { @class = "form-control", required = "required" })
                         @Html.ValidationMessageFor(m => m.Phone)
                     </div>
                 </div>
@@ -41,25 +41,27 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="col-md-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-md-push-1">
                         <p>Would you prefer a phone call or email?</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xs-2 col-sm-2 col-sm-push-1 col-md-2 col-md-push-2">
                         @Html.LabelFor(m => m.PhoneCheck, new { @class = "control-label" })
-
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2">
                         @Html.CheckBox("PhoneCheck", false)
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xs-2 col-sm-2 col-md-2">
                         @Html.LabelFor(m => m.EmailCheck, new { @class = "control-label" })
-
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-sm-pull-1 col-md-2 col-md-pull-2">
                         @Html.CheckBox("EmailCheck", false)
                     </div>
-                    <div class="col-md-6 col-md-push-2">
+                    <div class="col-xs-6 col-sm-6 col-sm-push-2 col-md-6 col-md-push-2">
                         <p id="error-message"><p />
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="col-md-offset-2 col-md-10">
+                    <div class="col-md-offset-1 col-md-2">
                         <input type="submit" class="btn btn-default submit" value="Send" />
                     </div>
 
@@ -67,5 +69,24 @@
             </div>
         }
     </div>
+    <img src="~/Content/Images/blur_03.png" class="bottom-blur" />
 </section>
+
+
+
+@Html.Partial("_MessageSuccessModal")
+
+@section Scripts {
+    @if (ViewBag.Message != null)
+    {
+        <script>
+            $(document).ready(function () {
+
+                console.log("Success");
+                $('#successModal').modal('show');
+            });
+        </script>
+
+    }
+}
 
