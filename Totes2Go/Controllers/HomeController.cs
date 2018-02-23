@@ -22,6 +22,11 @@ namespace Totes2Go.Controllers
             return View();
         }
 
+        public ActionResult Payments()
+        {
+            return View();
+        }
+
         public ActionResult Contact()
         {
             return View();
@@ -53,7 +58,7 @@ namespace Totes2Go.Controllers
 
                 ViewBag.Message = "Message Sent";
                 ModelState.Clear(); //clears form when page reload
-
+                //Response.Redirect(Request.Url.AbsolutePath); //redirects page to index page, prevents double 
                 return View();
 
             }

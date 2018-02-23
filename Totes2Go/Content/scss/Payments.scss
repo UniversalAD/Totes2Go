@@ -1,0 +1,101 @@
+﻿.payment {
+    color: #fff;
+
+    @media (max-width: 480px) {
+        margin-top: 80px;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-weight: bold;
+
+        &.main-header {
+            margin-bottom: 25px;
+        }
+    }
+
+    .number {
+        background-color: #fff;
+        color: #000;
+        margin: 15px 0 0 0;
+        padding: 0 5px;
+        width: 80%;
+
+        @media (max-width: 768px) {
+            width: 75%;
+        }
+
+        @media (max-width: 480px) {
+            width: 73%;
+        }
+
+
+        &.second {
+            margin-left: -25px;
+
+            &:before {
+                transform: translate(-270%, -125%);
+            }
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translate(-120%, -125%);
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid #fff;
+        }
+    }
+
+    .account-desc {
+        font-size: 14px;
+
+        @media (max-width: 1024px) {
+            font-size: 2vw;
+        }
+
+        &.p-left {
+            margin-left: -25px;
+        }
+    }
+
+    .col-xs-6 {
+        @media (max-width: 480px) {
+            width: 100%;
+        }
+    }
+}
+
+.card-info {
+    margin-top: 25px;
+    color: #fff;
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            padding-right: 4px;
+
+            img {
+                width: 100%;
+                max-width: 125px;
+            }
+        }
+    }
+    
+    h2 {
+        margin-top: 0;
+        font-weight: bold;
+    }
+    
+    .card-sec {
+        margin-top: 25px;
+    }
+}

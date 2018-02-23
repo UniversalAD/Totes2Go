@@ -222,8 +222,12 @@
     <Content Include="Content\Images\brown-bag-03_05.png" />
     <Content Include="Content\Images\brown-bag-04_07.png" />
     <Content Include="Content\Images\brown-bag-05_07.png" />
+    <Content Include="Content\Images\Check_03.png" />
     <Content Include="Content\Images\faded_logo_07.png" />
+    <Content Include="Content\Images\lady_05.png" />
     <Content Include="Content\Images\Logo_03.png" />
+    <Content Include="Content\Images\on-the-go-arrow.png" />
+    <Content Include="Content\Images\Tote-Mini.png" />
     <Content Include="Content\Site.css">
       <DependentUpon>Site.scss</DependentUpon>
     </Content>
@@ -301,6 +305,7 @@
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Shared\_TopVideoSection.cshtml" />
     <Content Include="Views\Shared\_MessageSuccessModal.cshtml" />
+    <Content Include="Views\Home\Payments.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
