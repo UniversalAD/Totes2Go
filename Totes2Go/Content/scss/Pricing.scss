@@ -1,4 +1,6 @@
-﻿.pricing-section {
+﻿@import 'Typography.scss';
+
+.pricing-section {
 
     .brown {
         background-color: #542d02;
@@ -52,6 +54,7 @@
         color: #fff;
         line-height: 0.6;
         padding-top: 10px;
+        font-family: $futura-bt-book-bold;
 
         @media (max-width: 768px) {
             font-size: 4vw;
@@ -92,7 +95,7 @@
         }
 
         @media (max-width: 768px) {
-            height: 138px;
+            height: 128px;
         }
 
         @media (max-width: 767px) {
@@ -176,6 +179,7 @@
 
             h4 {
                 font-size: 40px;
+                font-family: $futura-bt-book-bold;
                 color: #fff;
                 letter-spacing: 2px;
                 transform: translate(0, 38%);

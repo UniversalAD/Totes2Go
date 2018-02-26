@@ -56,10 +56,66 @@
 .no-gutters {
   padding: 0; }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .row {
-    margin-right: auto;
-    margin-left: auto; } }
+    margin-right: 0;
+    margin-left: 0; } }
+
+@media (max-width: 1024px) {
+  .col-md-centered {
+    margin: 0 auto;
+    float: none; } }
+
+@media (max-width: 767px) {
+  .col-xs-centered {
+    margin: 0 auto;
+    float: none; } }
+
+@font-face {
+  font-family: 'futura_bk_btbook';
+  src: url("../fonts/futuran-webfont.woff2") format("woff2"), url("../fonts/futuran-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_bk_btbook_italic';
+  src: url("../fonts/futurani-webfont.woff2") format("woff2"), url("../fonts/futurani-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_xblk_btextra_black';
+  src: url("../fonts/futuraxk-webfont.woff2") format("woff2"), url("../fonts/futuraxk-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_xblkit_btXBlkIt';
+  src: url("../fonts/futurxki-webfont.woff2") format("woff2"), url("../fonts/futurxki-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+h2, h3 {
+  font-family: "futura_xblk_btextra_black"; }
+
+p {
+  font-family: "futura_bk_btbook"; }
+
+li a {
+  font-family: "futura_bk_btbook"; }
+
+label {
+  font-family: "futura_bk_btbook_italic";
+  font-weight: 100; }
+
+.contact p {
+  font-family: "futura_bk_btbook_italic"; }
+
+.contact .btn {
+  font-family: "futura_bk_btbook_italic"; }
+
+.card-info .btn-default {
+  font-family: "futura_bk_btbook"; }
 
 .navbar-inverse {
   background-color: #ecead3;
@@ -127,6 +183,52 @@
 @media (max-width: 767px) {
   .glyphicon-search {
     margin-left: 5px; } }
+
+@font-face {
+  font-family: 'futura_bk_btbook';
+  src: url("../fonts/futuran-webfont.woff2") format("woff2"), url("../fonts/futuran-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_bk_btbook_italic';
+  src: url("../fonts/futurani-webfont.woff2") format("woff2"), url("../fonts/futurani-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_xblk_btextra_black';
+  src: url("../fonts/futuraxk-webfont.woff2") format("woff2"), url("../fonts/futuraxk-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_xblkit_btXBlkIt';
+  src: url("../fonts/futurxki-webfont.woff2") format("woff2"), url("../fonts/futurxki-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+h2, h3 {
+  font-family: "futura_xblk_btextra_black"; }
+
+p {
+  font-family: "futura_bk_btbook"; }
+
+li a {
+  font-family: "futura_bk_btbook"; }
+
+label {
+  font-family: "futura_bk_btbook_italic";
+  font-weight: 100; }
+
+.contact p {
+  font-family: "futura_bk_btbook_italic"; }
+
+.contact .btn {
+  font-family: "futura_bk_btbook_italic"; }
+
+.card-info .btn-default {
+  font-family: "futura_bk_btbook"; }
 
 .grocery-corner {
   background-image: url("Images/backgrounds/grocery_corner_06_06.png");
@@ -204,7 +306,6 @@
   .totes p {
     font-size: 16px; }
   .totes h3 {
-    font-weight: 900;
     font-size: 28px; }
   .totes .top-blur {
     position: relative;
@@ -241,12 +342,11 @@
         margin: auto; } }
     .text-vid-sec .totes-p-sec h3 {
       font-size: 28px;
-      color: #203644;
-      font-weight: 900; }
+      color: #203644; }
       .text-vid-sec .totes-p-sec h3 span {
         font-weight: 100;
         font-size: 22px;
-        font-style: italic; }
+        font-family: "futura_bk_btbook_italic"; }
     .text-vid-sec .totes-p-sec p {
       text-align: center;
       font-size: 16px; }
@@ -294,6 +394,52 @@ footer {
   height: 100px;
   width: 100%; }
 
+@font-face {
+  font-family: 'futura_bk_btbook';
+  src: url("../fonts/futuran-webfont.woff2") format("woff2"), url("../fonts/futuran-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_bk_btbook_italic';
+  src: url("../fonts/futurani-webfont.woff2") format("woff2"), url("../fonts/futurani-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_xblk_btextra_black';
+  src: url("../fonts/futuraxk-webfont.woff2") format("woff2"), url("../fonts/futuraxk-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_xblkit_btXBlkIt';
+  src: url("../fonts/futurxki-webfont.woff2") format("woff2"), url("../fonts/futurxki-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+h2, h3 {
+  font-family: "futura_xblk_btextra_black"; }
+
+p {
+  font-family: "futura_bk_btbook"; }
+
+li a {
+  font-family: "futura_bk_btbook"; }
+
+label {
+  font-family: "futura_bk_btbook_italic";
+  font-weight: 100; }
+
+.contact p {
+  font-family: "futura_bk_btbook_italic"; }
+
+.contact .btn {
+  font-family: "futura_bk_btbook_italic"; }
+
+.card-info .btn-default {
+  font-family: "futura_bk_btbook"; }
+
 .pricing-section .brown {
   background-color: #542d02;
   height: 70px; }
@@ -335,7 +481,8 @@ footer {
   font-size: 40px;
   color: #fff;
   line-height: 0.6;
-  padding-top: 10px; }
+  padding-top: 10px;
+  font-family: "futura_bk_btbook"; }
   @media (max-width: 768px) {
     .pricing-section h3 {
       font-size: 4vw; } }
@@ -365,7 +512,7 @@ footer {
       height: 189px; } }
   @media (max-width: 768px) {
     .pricing-section .white-bg {
-      height: 138px; } }
+      height: 128px; } }
   @media (max-width: 767px) {
     .pricing-section .white-bg {
       height: 267px; } }
@@ -425,6 +572,7 @@ footer {
         background-size: cover; } }
     .pricing-section .white-bg .bottom-fade h4 {
       font-size: 40px;
+      font-family: "futura_bk_btbook";
       color: #fff;
       letter-spacing: 2px;
       transform: translate(0, 38%); }
@@ -480,29 +628,85 @@ footer {
   .modal-content .modal-body {
     z-index: -5; }
 
+@font-face {
+  font-family: 'futura_bk_btbook';
+  src: url("../fonts/futuran-webfont.woff2") format("woff2"), url("../fonts/futuran-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_bk_btbook_italic';
+  src: url("../fonts/futurani-webfont.woff2") format("woff2"), url("../fonts/futurani-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_xblk_btextra_black';
+  src: url("../fonts/futuraxk-webfont.woff2") format("woff2"), url("../fonts/futuraxk-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_xblkit_btXBlkIt';
+  src: url("../fonts/futurxki-webfont.woff2") format("woff2"), url("../fonts/futurxki-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+h2, h3 {
+  font-family: "futura_xblk_btextra_black"; }
+
+p {
+  font-family: "futura_bk_btbook"; }
+
+li a {
+  font-family: "futura_bk_btbook"; }
+
+label {
+  font-family: "futura_bk_btbook_italic";
+  font-weight: 100; }
+
+.contact p {
+  font-family: "futura_bk_btbook_italic"; }
+
+.contact .btn {
+  font-family: "futura_bk_btbook_italic"; }
+
+.card-info .btn-default {
+  font-family: "futura_bk_btbook"; }
+
 .payment {
-  color: #fff; }
+  color: #fff;
+  margin-top: 200px; }
+  @media (max-width: 1024px) {
+    .payment {
+      margin-top: 100px; } }
   @media (max-width: 480px) {
     .payment {
       margin-top: 80px; } }
   .payment h2 {
     margin-top: 0;
-    margin-bottom: 5px;
-    font-weight: bold; }
+    margin-bottom: 5px; }
+    @media (max-width: 1024px) {
+      .payment h2 {
+        font-size: 24px; } }
     .payment h2.main-header {
-      margin-bottom: 25px; }
+      margin-bottom: 25px;
+      font-size: 40px; }
   .payment .number {
     background-color: #fff;
     color: #000;
     margin: 15px 0 0 0;
     padding: 0 5px;
-    width: 80%; }
+    width: 80%;
+    font-family: "futura_bk_btbook"; }
     @media (max-width: 768px) {
       .payment .number {
         width: 75%; } }
     @media (max-width: 480px) {
       .payment .number {
-        width: 73%; } }
+        width: 73%;
+        padding-right: 1px;
+        padding-left: 1px; } }
     .payment .number.second {
       margin-left: -25px; }
       .payment .number.second:before {
@@ -527,24 +731,71 @@ footer {
   @media (max-width: 480px) {
     .payment .col-xs-6 {
       width: 100%; } }
+  @media (max-width: 1024px) {
+    .payment.row {
+      margin-right: 0;
+      margin-left: 0; } }
 
 .card-info {
-  margin-top: 25px;
+  margin-top: 45px;
   color: #fff; }
   .card-info ul {
     margin: 0;
     padding: 0; }
+    @media (max-width: 1024px) {
+      .card-info ul {
+        width: 100%;
+        max-width: 630px;
+        margin: 0 auto;
+        float: none; } }
+    @media (max-width: 480px) {
+      .card-info ul {
+        margin-left: 7px; } }
     .card-info ul li {
       display: inline-block;
       padding-right: 4px; }
+      @media (max-width: 480px) {
+        .card-info ul li {
+          padding: 0; } }
       .card-info ul li img {
         width: 100%;
         max-width: 125px; }
+        @media (max-width: 1024px) {
+          .card-info ul li img {
+            max-width: none; } }
   .card-info h2 {
-    margin-top: 0;
-    font-weight: bold; }
+    margin-top: 0; }
   .card-info .card-sec {
     margin-top: 25px; }
+    @media (max-width: 1024px) {
+      .card-info .card-sec {
+        margin-bottom: 150px; } }
+  @media (max-width: 1024px) {
+    .card-info .offset-md-top {
+      transform: translate(0, 40%); } }
+  @media (max-width: 767px) {
+    .card-info .offset-md-top {
+      transform: translate(0, 0); } }
+  .card-info .btn-default {
+    margin: 25px auto 0 auto;
+    display: block;
+    padding: 15px;
+    width: 125px;
+    border-radius: 10px;
+    font-size: 19px;
+    color: #000;
+    background-color: #d2eff9; }
+    .card-info .btn-default:hover {
+      color: rgba(0, 0, 0, 0.5); }
+  .card-info .bottom-blur {
+    position: relative;
+    right: -50%;
+    transform: translate(-50%, 425%);
+    width: 370px;
+    height: 15px; }
+    @media (max-width: 480px) {
+      .card-info .bottom-blur {
+        transform: translate(-50%, 278%); } }
 
 body {
   padding-top: 50px;

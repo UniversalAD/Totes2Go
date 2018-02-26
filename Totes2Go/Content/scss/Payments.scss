@@ -1,5 +1,12 @@
-﻿.payment {
+﻿@import 'Typography.scss';
+
+.payment {
     color: #fff;
+    margin-top: 200px;
+
+    @media (max-width: 1024px) {
+        margin-top: 100px;
+    }
 
     @media (max-width: 480px) {
         margin-top: 80px;
@@ -8,10 +15,14 @@
     h2 {
         margin-top: 0;
         margin-bottom: 5px;
-        font-weight: bold;
+
+        @media (max-width: 1024px) {
+            font-size: 24px;
+        }
 
         &.main-header {
             margin-bottom: 25px;
+            font-size: 40px;
         }
     }
 
@@ -21,6 +32,7 @@
         margin: 15px 0 0 0;
         padding: 0 5px;
         width: 80%;
+        font-family: $futura-bt-book-bold;
 
         @media (max-width: 768px) {
             width: 75%;
@@ -28,6 +40,8 @@
 
         @media (max-width: 480px) {
             width: 73%;
+            padding-right: 1px;
+            padding-left: 1px;
         }
 
 
@@ -69,33 +83,100 @@
             width: 100%;
         }
     }
+
+    &.row {
+        @media (max-width: 1024px) {
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
 }
 
 .card-info {
-    margin-top: 25px;
+    margin-top: 45px;
     color: #fff;
 
     ul {
         margin: 0;
         padding: 0;
 
+        @media (max-width: 1024px) {
+            width: 100%;
+            max-width: 630px;
+            margin: 0 auto;
+            float: none;
+        }
+        
+        @media (max-width: 480px) {
+            margin-left: 7px;
+        }
+
         li {
             display: inline-block;
             padding-right: 4px;
 
+            @media (max-width: 480px) {
+                padding: 0;
+            }
+
             img {
                 width: 100%;
                 max-width: 125px;
+
+                @media (max-width: 1024px) {
+                    max-width: none;
+                }               
             }
         }
     }
-    
+
     h2 {
         margin-top: 0;
-        font-weight: bold;
     }
-    
+
     .card-sec {
         margin-top: 25px;
+
+        @media (max-width: 1024px) {
+            margin-bottom: 150px;
+        }
+    }
+
+    .offset-md-top {
+
+        @media (max-width: 1024px) {
+            transform: translate(0, 40%);
+        }
+
+        @media (max-width: 767px) {
+            transform: translate(0, 0);
+        }
+    }
+
+    .btn-default {
+        margin: 25px auto 0 auto;
+        display: block;
+        padding: 15px;
+        width: 125px;
+        border-radius: 10px;
+        font-size: 19px;
+        color: #000;
+        background-color: #d2eff9;
+
+        &:hover {
+            color: rgba(0,0,0,.5);
+        }
+    }
+
+    .bottom-blur {
+        position: relative;
+        right: -50%;
+        transform: translate(-50%, 425%);
+        width: 370px;
+        height: 15px;
+
+        @media (max-width: 480px) {
+            transform: translate(-50%, 278%);
+        }
     }
 }
