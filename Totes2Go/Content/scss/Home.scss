@@ -1,5 +1,4 @@
-﻿
-
+﻿@import 'Typography.scss';
 
 .grocery-corner {
     background-image: url('Images/backgrounds/grocery_corner_06_06.png');
@@ -103,7 +102,6 @@
     }
 
     h3 {
-        font-weight: 900;
         font-size: 28px;
     }
 
@@ -153,12 +151,11 @@
         h3 {
             font-size: 28px;
             color: #203644;
-            font-weight: 900;
 
             span {
                 font-weight: 100;
                 font-size: 22px;
-                font-style: italic;
+                font-family: $futura-bt-book-italic;
             }
         }
 

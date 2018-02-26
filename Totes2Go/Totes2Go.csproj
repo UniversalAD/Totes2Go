@@ -211,6 +211,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\amax_07.png" />
     <Content Include="Content\Images\backgrounds\blue_bg_03.png" />
     <Content Include="Content\Images\backgrounds\bottom-shadow_03.png" />
     <Content Include="Content\Images\backgrounds\grocery_corner_06_06.png" />
@@ -223,11 +224,14 @@
     <Content Include="Content\Images\brown-bag-04_07.png" />
     <Content Include="Content\Images\brown-bag-05_07.png" />
     <Content Include="Content\Images\Check_03.png" />
+    <Content Include="Content\Images\Discover_07.png" />
     <Content Include="Content\Images\faded_logo_07.png" />
     <Content Include="Content\Images\lady_05.png" />
     <Content Include="Content\Images\Logo_03.png" />
+    <Content Include="Content\Images\mastercard_07.png" />
     <Content Include="Content\Images\on-the-go-arrow.png" />
     <Content Include="Content\Images\Tote-Mini.png" />
+    <Content Include="Content\Images\visa_07.png" />
     <Content Include="Content\Site.css">
       <DependentUpon>Site.scss</DependentUpon>
     </Content>
@@ -250,12 +254,21 @@
     <Content Include="Content\scss\Layout.scss" />
     <Content Include="Content\scss\Pricing.scss" />
     <Content Include="Content\scss\Contact.scss" />
+    <Content Include="Content\scss\Payments.scss" />
     <None Include="Content\Site.scss" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\futuran-webfont.woff" />
+    <Content Include="fonts\futuran-webfont.woff2" />
+    <Content Include="fonts\futurani-webfont.woff" />
+    <Content Include="fonts\futurani-webfont.woff2" />
+    <Content Include="fonts\futuraxk-webfont.woff" />
+    <Content Include="fonts\futuraxk-webfont.woff2" />
+    <Content Include="fonts\futurxki-webfont.woff" />
+    <Content Include="fonts\futurxki-webfont.woff2" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
