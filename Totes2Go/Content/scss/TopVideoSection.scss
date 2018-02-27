@@ -17,4 +17,12 @@
             display: block;
         }
     }
+
+    iframe {
+        height: 400px;
+
+        @media (max-width: 480px) {
+            height: 100%;
+        }
+    }
 }

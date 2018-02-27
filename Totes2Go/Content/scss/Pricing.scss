@@ -91,15 +91,11 @@
         }
 
         @media (max-width: 900px) {
-            height: 189px;
-        }
-
-        @media (max-width: 768px) {
-            height: 128px;
+            height: 100%;
         }
 
         @media (max-width: 767px) {
-            height: 267px;
+            height: 100%;
         }
 
         @media (max-width: 480px) {
@@ -167,12 +163,16 @@
                 background-repeat: no-repeat;
             }
 
+            @media (min-width: 768px) and (max-width: 1000px) {
+                transform: translate(0, 50%)
+            }
+
             @media (max-width: 767px) {
-                transform: translate(0, 13%);
+                transform: translate(0, 33%);
             }
 
             @media (max-width: 480px) {
-                height: 45px;
+                height: 43px;
                 transform: translate(0, 22%);
                 background-size: cover;
             }
