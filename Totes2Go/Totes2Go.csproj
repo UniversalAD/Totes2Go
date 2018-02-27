@@ -261,14 +261,14 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="fonts\futuran-webfont.woff" />
-    <Content Include="fonts\futuran-webfont.woff2" />
-    <Content Include="fonts\futurani-webfont.woff" />
-    <Content Include="fonts\futurani-webfont.woff2" />
-    <Content Include="fonts\futuraxk-webfont.woff" />
-    <Content Include="fonts\futuraxk-webfont.woff2" />
-    <Content Include="fonts\futurxki-webfont.woff" />
-    <Content Include="fonts\futurxki-webfont.woff2" />
+    <Content Include="Content\fonts\futuran-webfont.woff" />
+    <Content Include="Content\fonts\futuran-webfont.woff2" />
+    <Content Include="Content\fonts\futurani-webfont.woff" />
+    <Content Include="Content\fonts\futurani-webfont.woff2" />
+    <Content Include="Content\fonts\futuraxk-webfont.woff" />
+    <Content Include="Content\fonts\futuraxk-webfont.woff2" />
+    <Content Include="Content\fonts\futurxki-webfont.woff" />
+    <Content Include="Content\fonts\futurxki-webfont.woff2" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
