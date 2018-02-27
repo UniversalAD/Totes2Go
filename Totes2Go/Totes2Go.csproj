@@ -269,6 +269,7 @@
     <Content Include="Content\fonts\futuraxk-webfont.woff2" />
     <Content Include="Content\fonts\futurxki-webfont.woff" />
     <Content Include="Content\fonts\futurxki-webfont.woff2" />
+    <None Include="Properties\PublishProfiles\Totes2Go - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
