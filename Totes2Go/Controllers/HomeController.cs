@@ -38,9 +38,11 @@ namespace Totes2Go.Controllers
         {
             if (ModelState.IsValid)
             {
+                //var emails = "chrisg@universalad.com, goodrow.chris4@gmail.com, goodrow.chris4@yahoo.com";
                 var body = "Name: {0} <br />  Email: {1} <br /> Phone: {2} <br />  Message: {3} <br /> Contact Type Phone: {4} <br /> Contact Type Email: {5}";
                 var message = new SendGridMessage();
-                message.AddTo("chrisg@universalad.com");  // replace with valid value 
+                message.AddTo("artwork@totes2go.com");
+                message.AddTo("conner@universalad.com");  // replace with valid value 
                 message.From = new MailAddress("chrisg@universalad.com");  // replace with valid value
                 message.Subject = "Totes 2 Go Contact";
                 message.Html = string.Format(body, model.Name, model.Email, model.Phone, model.Message, model.PhoneCheck, model.EmailCheck);
