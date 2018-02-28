@@ -66,5 +66,15 @@ namespace Totes2Go.Controllers
             }
             return View(model);
         }
+
+        public ActionResult OurTotes()
+        {
+            return View();
+        }
+
+        public ActionResult Employment()
+        {
+            return RedirectToAction("OurTotes", "Home");
+        }
     }
 }

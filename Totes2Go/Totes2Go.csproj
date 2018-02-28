@@ -224,6 +224,7 @@
     <Content Include="Content\Images\brown-bag-04_07.png" />
     <Content Include="Content\Images\brown-bag-05_07.png" />
     <Content Include="Content\Images\Check_03.png" />
+    <Content Include="Content\Images\construction.jpg" />
     <Content Include="Content\Images\Discover_07.png" />
     <Content Include="Content\Images\faded_logo_07.png" />
     <Content Include="Content\Images\lady_05.png" />
@@ -320,6 +321,8 @@
     <Content Include="Views\Shared\_TopVideoSection.cshtml" />
     <Content Include="Views\Shared\_MessageSuccessModal.cshtml" />
     <Content Include="Views\Home\Payments.cshtml" />
+    <Content Include="Views\Shared\_constructionModal.cshtml" />
+    <Content Include="Views\Home\OurTotes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
