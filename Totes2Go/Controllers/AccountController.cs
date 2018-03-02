@@ -58,7 +58,7 @@ namespace Totes2Go.Controllers
         public ActionResult Login(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
-            return View();
+            return RedirectToAction("OurTotes", "Home");
         }
 
         //
@@ -139,7 +139,7 @@ namespace Totes2Go.Controllers
         [AllowAnonymous]
         public ActionResult Register()
         {
-            return View();
+            return RedirectToAction("OurTotes", "Home");
         }
 
         //
