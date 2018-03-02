@@ -608,6 +608,10 @@ label {
     .striped .bottom-blur {
       transform: translate(-50%, 645%); } }
 
+.contact .address p {
+  color: #fff;
+  font-size: 20px; }
+
 .contact h2 {
   color: #fff;
   font-weight: 900; }
