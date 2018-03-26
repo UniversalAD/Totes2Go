@@ -6,6 +6,7 @@
     <meta name="keywords" content="Totes, totes bags, totes, custom, custom totes, bags, custom, bags, yotes, bag rotes, bag, tote bag advertising, custom advertising, custome promos, promos, promotion, marketing, custom marketing, local marketing, local advertising, local promos, local promotion, small buisiness advertising, small business marketing custom promotions">
     <meta name="description" content="">
     <title>@ViewBag.Title - Totes 2 Go</title>
+    @Html.Partial("_GoogleAnalytics")
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -13,7 +14,8 @@
 <body>
     @Html.Partial("_Header")
     <div class="container-fluid">
-        @RenderBody()     
+        @RenderBody()
+        @*@Html.Partial("_Blog")*@
         <footer>        
         </footer>
     </div>

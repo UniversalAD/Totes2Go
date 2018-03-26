@@ -241,6 +241,7 @@
     <Content Include="Content\Site.min.css">
       <DependentUpon>Site.css</DependentUpon>
     </Content>
+    <Content Include="Content\Video\Totes_Blog_Video.mp4" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -325,6 +326,8 @@
     <Content Include="Views\Home\Payments.cshtml" />
     <Content Include="Views\Shared\_constructionModal.cshtml" />
     <Content Include="Views\Home\OurTotes.cshtml" />
+    <Content Include="Views\Shared\_Blog.cshtml" />
+    <Content Include="Views\Shared\_GoogleAnalytics.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
