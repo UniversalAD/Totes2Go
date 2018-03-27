@@ -18,6 +18,16 @@
 :-ms-input-placeholder {
   text-align: center; }
 
+body::-webkit-scrollbar {
+  width: 1em; }
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey; }
+
 @media (max-width: 767px) {
   .hide-for-small {
     display: none; } }
@@ -123,6 +133,9 @@ label {
   .navbar-inverse .navbar-nav li a {
     color: #000; }
     .navbar-inverse .navbar-nav li a:hover {
+      color: #000;
+      opacity: .5; }
+    .navbar-inverse .navbar-nav li a:focus {
       color: #000;
       opacity: .5; }
     @media (max-width: 1024px) {
@@ -837,6 +850,102 @@ label {
     @media (max-width: 480px) {
       .card-info .bottom-blur {
         transform: translate(-50%, 278%); } }
+
+@font-face {
+  font-family: 'futura_bk_btbook';
+  src: url("fonts/futuran-webfont.woff2") format("woff2"), url("fonts/futuran-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_bk_btbook_italic';
+  src: url("fonts/futurani-webfont.woff2") format("woff2"), url("fonts/futurani-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_xblk_btextra_black';
+  src: url("fonts/futuraxk-webfont.woff2") format("woff2"), url("fonts/futuraxk-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_xblkit_btXBlkIt';
+  src: url("/fonts/futurxki-webfont.woff2") format("woff2"), url("/fonts/futurxki-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+h2, h3 {
+  font-family: "futura_xblk_btextra_black"; }
+
+p {
+  font-family: "futura_bk_btbook"; }
+
+li a {
+  font-family: "futura_bk_btbook"; }
+
+label {
+  font-family: "futura_bk_btbook_italic";
+  font-weight: 100; }
+
+.contact p {
+  font-family: "futura_bk_btbook_italic"; }
+
+.contact .btn {
+  font-family: "futura_bk_btbook_italic"; }
+
+.card-info .btn-default {
+  font-family: "futura_bk_btbook"; }
+
+.blog {
+  position: fixed;
+  right: -9999px;
+  top: 15%;
+  width: 20%;
+  height: 650px;
+  background-color: #ecead3;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  overflow-y: scroll; }
+  @media (max-width: 1024px) {
+    .blog {
+      width: 35%; } }
+  @media (max-width: 768px) {
+    .blog {
+      width: 45%; } }
+  @media (max-width: 480px) {
+    .blog {
+      top: 16%;
+      border-radius: 0; } }
+  .blog p {
+    font-family: "futura_bk_btbook"; }
+  .blog h3 {
+    word-break: break-word;
+    color: #000;
+    font-size: 1.7vw; }
+    @media (max-width: 900px) {
+      .blog h3 {
+        font-size: 2.3vw; } }
+    @media (max-width: 480px) {
+      .blog h3 {
+        font-size: 5.7vw; } }
+  .blog .glyphicon {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    font-size: 24px;
+    color: #000; }
+    @media (max-width: 900px) {
+      .blog .glyphicon {
+        top: 2%;
+        left: -1%; } }
+    @media (max-width: 480px) {
+      .blog .glyphicon {
+        top: 0;
+        left: -10px; } }
+  @media (max-width: 1400px) {
+    .blog .col-lg-9 {
+      width: 100%; } }
 
 body {
   padding-top: 50px;

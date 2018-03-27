@@ -259,7 +259,9 @@
     <Content Include="Content\scss\Pricing.scss" />
     <Content Include="Content\scss\Contact.scss" />
     <Content Include="Content\scss\Payments.scss" />
+    <Content Include="Content\scss\Blog.scss" />
     <None Include="Content\Site.scss" />
+    <Content Include="Scripts\blog.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
