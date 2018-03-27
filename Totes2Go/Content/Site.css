@@ -946,6 +946,8 @@ label {
   @media (max-width: 1400px) {
     .blog .col-lg-9 {
       width: 100%; } }
+  .blog .blog-icon {
+    cursor: pointer; }
 
 body {
   padding-top: 50px;
