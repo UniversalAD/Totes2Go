@@ -11,6 +11,12 @@
                 &:hover {
                    color: #000;
                    opacity: .5;
+                   cursor: pointer;
+                }
+
+                &:focus {
+                    color: #000;
+                    opacity: .5;
                 }
 
                 @media (max-width: 1024px) {

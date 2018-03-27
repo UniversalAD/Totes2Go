@@ -1,0 +1,71 @@
+﻿@import 'Typography.scss';
+
+.blog {
+    position: fixed;
+    right: -9999px;
+    top: 15%;
+    width: 20%;
+    height: 650px;
+    background-color: #ecead3;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    overflow-y: scroll;
+
+    @media (max-width: 1024px) {
+        width: 35%;
+    }
+
+    @media (max-width: 768px) {
+        width: 45%;
+    }
+
+    @media (max-width: 480px) {
+        top: 16%;
+        border-radius: 0;
+    }
+
+    p {
+        font-family: $futura-bt-book-bold;
+    }
+
+    h3 {
+        word-break: break-word;
+        color: #000;
+        font-size: 1.7vw;
+
+        @media (max-width: 900px) {
+            font-size: 2.3vw;
+        }
+
+        @media (max-width: 480px) {
+            font-size: 5.7vw;
+        }
+    }
+
+    .glyphicon {
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        font-size: 24px;
+        color: #000;
+
+        @media (max-width: 900px) {
+           top: 2%;
+           left: -1%;
+        }
+
+        @media (max-width: 480px) {
+            top: 0;
+            left: -10px;
+        }
+    }
+
+    .col-lg-9 {
+        @media (max-width: 1400px) {
+            width: 100%;
+        }
+    }
+    .blog-icon {
+        cursor: pointer;
+    }
+}
