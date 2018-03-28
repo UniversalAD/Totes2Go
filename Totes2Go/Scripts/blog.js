@@ -29,8 +29,9 @@
 
         if ($(window).width() < 480) {
             $(BlogTab).animate({
-                "width": "100%",
-                "right": "0"
+                "width" : "100%",
+                "height": "100%",
+                "right" : "0"
             }, 1000);
         } else {          
             $(BlogTab).animate({
