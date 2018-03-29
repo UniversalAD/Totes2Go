@@ -548,36 +548,10 @@ label {
     .pricing-section .white-bg {
       height: 100%; } }
   .pricing-section .white-bg img {
-    padding: 0px 60px 0 60px;
-    margin-top: -35px;
-    transform: translate(0, 11%); }
-    @media (max-width: 1024px) {
+    padding: 15px 60px 0 60px; }
+    @media (max-width: 768px) {
       .pricing-section .white-bg img {
-        transform: translate(0, 16%);
-        padding: 15px 60px 0 60px; } }
-    @media (max-width: 480px) {
-      .pricing-section .white-bg img {
-        transform: translate(0, 14%); } }
-    .pricing-section .white-bg img.green-img {
-      transform: translate(0, 14%); }
-      @media (max-width: 1024px) {
-        .pricing-section .white-bg img.green-img {
-          transform: translate(0, 17%); } }
-    .pricing-section .white-bg img.orange-img {
-      transform: translate(0, 14%); }
-      @media (max-width: 1024px) {
-        .pricing-section .white-bg img.orange-img {
-          transform: translate(0, 17%); } }
-    .pricing-section .white-bg img.maroon-img {
-      transform: translate(0, 14%); }
-      @media (max-width: 1024px) {
-        .pricing-section .white-bg img.maroon-img {
-          transform: translate(0, 17%); } }
-    .pricing-section .white-bg img.light-blue-img {
-      transform: translate(0, 14%); }
-      @media (max-width: 1024px) {
-        .pricing-section .white-bg img.light-blue-img {
-          transform: translate(0, 17%); } }
+        padding: 15px 20px 0 20px; } }
   .pricing-section .white-bg .bottom-fade {
     background-image: url("Images/backgrounds/bottom-shadow_03.png");
     background-size: cover;
@@ -915,12 +889,18 @@ label {
   @media (max-width: 768px) {
     .blog {
       width: 45%; } }
+  @media (max-width: 767px) {
+    .blog {
+      padding-top: 55px;
+      padding-bottom: 100px; } }
   @media (max-width: 480px) {
     .blog {
       top: 12.8%;
       border-radius: 0;
       height: 100%;
-      padding-bottom: 100px; } }
+      padding-top: 15px;
+      padding-bottom: 100px;
+      padding-top: 25px; } }
   .blog p {
     font-family: "futura_bk_btbook"; }
   .blog h3 {
@@ -930,9 +910,13 @@ label {
     @media (max-width: 900px) {
       .blog h3 {
         font-size: 2.3vw; } }
+    @media (max-width: 767px) {
+      .blog h3 {
+        font-size: 4.2vw; } }
     @media (max-width: 480px) {
       .blog h3 {
-        font-size: 5.7vw; } }
+        font-size: 5.7vw;
+        margin-top: 35px; } }
   .blog .glyphicon {
     position: absolute;
     left: -10px;
