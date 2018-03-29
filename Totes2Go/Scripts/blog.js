@@ -8,7 +8,7 @@
             "transition": "2s ease-in"
         });
 
-        if ($(window).width() < 480) {
+        if ($(window).width() < 767) {
             $(BlogTab).animate({
                 "width": "20%",
                 "right": "-9999"
@@ -27,10 +27,11 @@
     }
     else {
 
-        if ($(window).width() < 480) {
+        if ($(window).width() < 767) {
             $(BlogTab).animate({
-                "width": "100%",
-                "right": "0"
+                "width" : "100%",
+                "height": "100%",
+                "right" : "0"
             }, 1000);
         } else {          
             $(BlogTab).animate({
