@@ -45,6 +45,11 @@ body::-webkit-scrollbar-thumb {
   display: block;
   float: none; }
 
+.center-block {
+  margin: 0 auto;
+  display: block;
+  float: none; }
+
 .m-top-100 {
   margin-top: 100px; }
   @media (max-width: 480px) {
@@ -395,6 +400,20 @@ label {
     @media (max-width: 480px) {
       .text-vid-sec .bottom-blur {
         transform: translate(-50%, 108%); } }
+
+.icons .icon-blue-bg {
+  background-color: #2b495b; }
+
+@media (min-width: 1400px) {
+  .icons p.text-center {
+    padding: 0 18%; } }
+
+@media (max-width: 767px) and (min-width: 480px) {
+  .icons p.text-center {
+    padding: 0 15%; } }
+
+.icons img {
+  padding-top: 15px; }
 
 footer {
   height: 100px; }

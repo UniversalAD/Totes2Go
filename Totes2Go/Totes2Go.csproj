@@ -229,7 +229,10 @@
     <Content Include="Content\Images\brown-tote_03_03.png" />
     <Content Include="Content\Images\Check_03.png" />
     <Content Include="Content\Images\construction.jpg" />
+    <Content Include="Content\Images\creative_06.png" />
     <Content Include="Content\Images\Discover_07.png" />
+    <Content Include="Content\Images\distribution_06.png" />
+    <Content Include="Content\Images\exposure_04.png" />
     <Content Include="Content\Images\faded_logo_07.png" />
     <Content Include="Content\Images\green-tote_05_03.png" />
     <Content Include="Content\Images\lady_05.png" />

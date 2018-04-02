@@ -210,6 +210,29 @@
     }
 }
 
+.icons {
+
+    .icon-blue-bg {
+        background-color: #2b495b;
+    }
+
+    p {
+        &.text-center {
+            @media (min-width: 1400px) {
+                padding: 0 18%;
+            }
+
+            @media (max-width: 767px) and (min-width: 480px) {
+                padding: 0 15%;
+            }
+        }
+    }
+
+    img {
+        padding-top: 15px;
+    }
+}
+
 footer {
     height: 100px;
 }
